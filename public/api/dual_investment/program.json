@@ -1,0 +1,49 @@
+{
+  "result": [
+    {
+      "programName": "ETH/USDC",
+      "contractAddr": "0xa6a98b5e2ca54a241c48e8C05aa5978Bd57C2ad1",
+      "programId": "1",
+      "description": "iZiSwap Protocol",
+      "programInfo": {
+        "token": {
+          "pair": [
+            {
+              "name": "ETH",
+              "decimals": 18,
+              "contractAddr": "0xc778417E063141139Fce010982780140Aa0cD5Ab"
+            },
+            {
+              "name": "USDC",
+              "decimals": 6,
+              "contractAddr": "0x07865c6E87B9F70255377e024ace6630C1Eaa37F"
+            }
+          ],
+          "exchangeRate": 1200.1
+        },
+        "poolStats": {
+          "totalValueLocked": 50000000,
+          "totalRewards24H": 100000000,
+          "annualPercentageRate": 2.0
+        },
+        "lockPeriods": [
+          {
+            "period": 1,
+            "annualPercentageRate": 2.0,
+            "nextSettlementTime": 1660318377172
+          },
+          {
+            "period": 3,
+            "annualPercentageRate": 3.0,
+            "nextSettlementTime": 1665318377172
+          },
+          {
+            "period": 7,
+            "annualPercentageRate": 4.0,
+            "nextSettlementTime": 1668318377172
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+html.dark {
+  /* custom dark bg color */
+  --color: #fff;
+  --el-dialog-bg-color: #1F2027;
+  --el-dialog-border-radius: 8px !important;
+  --el-dropdown-menuItem-hover-fill: rgba(255,255,255,0.4)
+}
+
+.el-dialog{
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+}
+
+.highlight{
+  color:#F7931A
+}
+.block{
+  width: 100%;
+  margin-top: 10px;
+}
